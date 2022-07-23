@@ -7,7 +7,7 @@ int main()
     printf("Please Enter the Operator : ");
     scanf("%c", &op);
 
-    while (op != 'q')
+    while ((op != 'q') && (op != 'Q'))
     {
         printf("Please Enter the 1st Operand: ");
         scanf("%d", &x);
